@@ -1,0 +1,32 @@
+name: "Generate package database"
+
+on:
+  workflow_dispatch:
+  schedule:
+  - cron: '0 0 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - uses: DeterminateSystems/nix-installer-action@main
+    - uses: DeterminateSystems/magic-nix-cache-action@main
+
+    - name: Create databases
+      run: |
+        nix-build
+        ./enter-env.sh ./result/bin/calculate-and-push
+
+    - uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: Update databases
+        commit_user_email: developers@floss.uz
+        commit_author: GitHub Actions <developers@floss.uz>
