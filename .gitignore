@@ -1,2 +1,5 @@
 # Nix results
 /result
+
+# Cloned repo
+nixpkgs

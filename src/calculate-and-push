@@ -21,8 +21,10 @@ if [ ! -d ./nixpkgs ]; then
   git clone --reference "$gitcache/nixpkgs" -- "$remote" ./nixpkgs
 fi
 
-calculate "$PWD/nixpkgs" "./data"
+scripts="$(cd "$(dirname "$0")" && pwd)"
 
-make-index ./data
+"$scripts/calculate" "$PWD/nixpkgs" "./data"
+
+"$scripts/make-index" ./data
 
 git add ./data
