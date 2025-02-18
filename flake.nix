@@ -24,7 +24,7 @@
         pkgs = nixpkgs.legacyPackages.${system};
       in {
         # Output package
-        packages = pkgs.callPackage ./. {inherit pkgs;};
+        packages.default = pkgs.callPackage ./. {inherit pkgs;};
 
         # Nix script formatter
         formatter = pkgs.alejandra;
