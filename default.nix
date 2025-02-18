@@ -1,52 +1,54 @@
-let
-  # Temporarily pin Nixpkgs: https://github.com/NixOS/nixpkgs/pull/126993#issuecomment-884192962
-  pkgs = import (builtins.fetchTarball "https://github.com/NixOS/nixpkgs/archive/aab3c48aef2260867272bf6797a980e32ccedbe0.tar.gz") { };
+{pkgs ? import <nixpkgs> {}, ...}: let
+  lib = pkgs.lib;
 
-  perl = pkgs.perl.withPackages (ps: with ps; [ JSON DateTime HTMLTidy ]);
+  perl = pkgs.perl.withPackages (ps: with ps; [JSON DateTime HTMLTidy]);
 in
-pkgs.resholvePackage {
-  pname = "nix-channel-monitor";
-  version = "0.0.0";
+  pkgs.stdenv.mkDerivation rec {
+    pname = "monitor";
+    version = "0.0.1";
 
-  src = ./src;
+    src = ./src;
 
-  preBuild = ''
-    shellcheck ./calculate
-    shellcheck ./calculate-and-push
-    shellcheck ./make-index
-  '';
+    preBuild = ''
+      shellcheck ./calculate
+      shellcheck ./calculate-and-push
+      shellcheck ./make-index
+    '';
 
-  buildPhase = ''
-    patchShebangs .
-  '';
+    buildPhase = ''
+      patchShebangs .
+    '';
 
-  nativeBuildInputs = [ pkgs.shellcheck perl ];
-
-  installPhase = ''
-    install -Dv calculate $out/bin/calculate
-    install -Dv calculate-and-push $out/bin/calculate-and-push
-    install -Dv enter-env.sh $out/bin/enter-env.sh
-    install -Dv make-index $out/bin/make-index
-  '';
-
-  solutions.calculate = {
-    scripts = [ "bin/calculate" "bin/calculate-and-push" "bin/enter-env.sh" ];
-    interpreter = "${pkgs.oil}/bin/osh";
-
-    inputs = with pkgs; [
-      (placeholder "out")
-      awscli2
-      bash
-      coreutils
-      curl
-      findutils
-      gawk
-      git
-      gnugrep
-      gnused
-      jq
-      recode
-      vault
+    nativeBuildInputs = [
+      perl
+      pkgs.shellcheck
     ];
-  };
-}
+
+    installPhase = ''
+      install -Dv calculate $out/bin/calculate
+      install -Dv calculate-and-push $out/bin/calculate-and-push
+      install -Dv make-index $out/bin/make-index
+    '';
+
+    meta = with lib; {
+      homepage = "https://github.com/xinux-org/monitor";
+      description = "Monitoring and storing nix indexes in a repo.";
+      licencse = lib.licenses.mit;
+      platforms = with platforms; linux ++ darwin;
+      # mainProgram = "calculate-and-push";
+      maintainers = [
+        {
+          name = "Sokhibjon Orzikulov";
+          email = "sakhib@orzklv.uz";
+          handle = "orzklv";
+          github = "orzklv";
+          githubId = 54666588;
+          keys = [
+            {
+              fingerprint = "00D2 7BC6 8707 0683 FBB9  137C 3C35 D3AF 0DA1 D6A8";
+            }
+          ];
+        }
+      ];
+    };
+  }
