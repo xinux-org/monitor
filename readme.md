@@ -16,7 +16,7 @@
 This is Uzbek Xinux community (nix users mostly) member's effort on creating a repository to gather more information about nixpkgs's branches and visualise it graphically in web.
 
 > [!NOTE]
-> This repository is actually renovated version of [Graham's nix-channel-monitor](https://github.com/grahamc/nix-channel-monitor). He deserves most of the credits for this work.
+> This repository is actually renovated version of [Graham's nix-channel-monitor](https://github.com/grahamc/nix-channel-monitor). He deserves most of the credits for this work. We just decided to revive his efforts for the community.
 
 ## Thanks
 
