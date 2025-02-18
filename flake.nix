@@ -3,17 +3,17 @@
 
   inputs = {
     # Too old to work with most libraries
-    nixpkgs.url = "github:nixos/nixpkgs/nixos-24.11";
+    # nixpkgs.url = "github:nixos/nixpkgs/nixos-24.11";
 
     # Perfect!
-    # nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
+    nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
 
     # The flake-utils library
     flake-utils.url = "github:numtide/flake-utils";
   };
 
   outputs = {
-    self,
+    # self,
     nixpkgs,
     flake-utils,
     ...

@@ -1,4 +1,14 @@
-{pkgs ? import <nixpkgs> {}, ...}: let
+{
+  pkgs ? let
+    lock = (builtins.fromJSON (builtins.readFile ./flake.lock)).nodes.nixpkgs.locked;
+    nixpkgs = fetchTarball {
+      url = "https://github.com/nixos/nixpkgs/archive/${lock.rev}.tar.gz";
+      sha256 = lock.narHash;
+    };
+  in
+    import nixpkgs {overlays = [];},
+  ...
+}: let
   lib = pkgs.lib;
 
   perl = pkgs.perl.withPackages (ps: with ps; [JSON DateTime HTMLTidy]);
@@ -35,7 +45,7 @@ in
       description = "Monitoring and storing nix indexes in a repo.";
       licencse = lib.licenses.mit;
       platforms = with platforms; linux ++ darwin;
-      # mainProgram = "calculate-and-push";
+      mainProgram = "calculate-and-push";
       maintainers = [
         {
           name = "Sokhibjon Orzikulov";
