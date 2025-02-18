@@ -37,12 +37,11 @@ jobs:
     - uses: DeterminateSystems/nix-installer-action@main
     - uses: DeterminateSystems/flakehub-cache-action@main
 
-    - name: Create databases
-      run: |
-        nix build
-        ./result/bin/calculate-and-push
+    - name: Generate datas
+      run: nix run
 
-    - uses: stefanzweifel/git-auto-commit-action@v5
+    - name: Commit everything and push
+      uses: stefanzweifel/git-auto-commit-action@v5
       with:
         commit_message: Update databases
         commit_user_email: developers@floss.uz
