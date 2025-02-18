@@ -71,7 +71,7 @@ EOF
 EOF
 }
 
-readonly URL="https://channels.nix.gsc.io"
+readonly URL="https://graph.xinux.uz"
 readonly remote="origin"
 readonly gitrepo="$1"
 readonly dest="$2"

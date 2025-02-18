@@ -1,6 +1,7 @@
-name: "Generate package database"
+name: "Update and deploy"
 
 on:
+  push:
   workflow_dispatch:
   schedule:
   - cron: '0 0 * * *'
@@ -30,3 +31,15 @@ jobs:
         commit_message: Update databases
         commit_user_email: developers@floss.uz
         commit_author: GitHub Actions <developers@floss.uz>
+
+    - name: Setup Pages
+      uses: actions/configure-pages@v5
+
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: './data'
+
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v4
