@@ -489,6 +489,10 @@ const graphData = [
          [
             "949fb7f3087b8d086fd8c92acfa8412c43cfc116",
             "2025-05-20T01:49:22Z"
+         ],
+         [
+            "dd7ad02f76af89a7cac43f09446ec9c390f1092d",
+            "2025-05-21T01:48:33Z"
          ]
       ],
       "name" : "nixos-unstable-small"
@@ -702,6 +706,10 @@ const graphData = [
          [
             "8406224e30c258025cb8b31704bdb977a8f1f009",
             "2025-05-20T01:49:23Z"
+         ],
+         [
+            "2f9173bde1d3fbf1ad26ff6d52f952f9e9da52ea",
+            "2025-05-21T01:48:34Z"
          ]
       ],
       "name" : "nixpkgs-unstable"
@@ -728,6 +736,10 @@ const graphData = [
          [
             "aad0fa6d189c06fc2850036a22b05959e140a8dd",
             "2025-05-20T01:49:21Z"
+         ],
+         [
+            "8746d3bd232554937178b6f23a6355b9d6f70468",
+            "2025-05-21T01:48:32Z"
          ]
       ],
       "name" : "nixos-25.05-small"
@@ -737,6 +749,10 @@ const graphData = [
          [
             "36d055248bd7758309ead91562b2cc44b08a257f",
             "2025-05-19T01:51:48Z"
+         ],
+         [
+            "e041816285df65c0e53bcc951782a2a69869a443",
+            "2025-05-21T01:48:34Z"
          ]
       ],
       "name" : "nixpkgs-25.05-darwin"
@@ -918,6 +934,10 @@ const graphData = [
          [
             "9b5ac7ad45298d58640540d0323ca217f32a6762",
             "2025-05-19T01:51:46Z"
+         ],
+         [
+            "72841a4a8761d1aed92ef6169a636872c986c76d",
+            "2025-05-21T01:48:32Z"
          ]
       ],
       "name" : "nixos-24.11"
@@ -1219,6 +1239,10 @@ const graphData = [
          [
             "74b4de8529c4ce6f17b80c97728fddd627097809",
             "2025-05-20T01:49:21Z"
+         ],
+         [
+            "595c22cce5205fa070f797b477978e91b123def0",
+            "2025-05-21T01:48:32Z"
          ]
       ],
       "name" : "nixos-24.11-small"
