@@ -156,6 +156,10 @@ const graphData = [
          [
             "292fa7d4f6519c074f0a50394dbbe69859bb6043",
             "2025-05-19T01:51:47Z"
+         ],
+         [
+            "2795c506fe8fb7b03c36ccb51f75b6df0ab2553f",
+            "2025-05-22T01:47:30Z"
          ]
       ],
       "name" : "nixos-unstable"
@@ -493,6 +497,10 @@ const graphData = [
          [
             "dd7ad02f76af89a7cac43f09446ec9c390f1092d",
             "2025-05-21T01:48:33Z"
+         ],
+         [
+            "458f45cef08031ee48bbe358137b45e0e7478695",
+            "2025-05-22T01:47:30Z"
          ]
       ],
       "name" : "nixos-unstable-small"
@@ -710,6 +718,10 @@ const graphData = [
          [
             "2f9173bde1d3fbf1ad26ff6d52f952f9e9da52ea",
             "2025-05-21T01:48:34Z"
+         ],
+         [
+            "8c441601c43232976179eac52dde704c8bdf81ed",
+            "2025-05-22T01:47:31Z"
          ]
       ],
       "name" : "nixpkgs-unstable"
@@ -723,6 +735,10 @@ const graphData = [
          [
             "ca49c4304acf0973078db0a9d200fd2bae75676d",
             "2025-05-20T01:49:21Z"
+         ],
+         [
+            "cd2812de55cf87df88a9e09bf3be1ce63d50c1a6",
+            "2025-05-22T01:47:29Z"
          ]
       ],
       "name" : "nixos-25.05"
@@ -740,6 +756,10 @@ const graphData = [
          [
             "8746d3bd232554937178b6f23a6355b9d6f70468",
             "2025-05-21T01:48:32Z"
+         ],
+         [
+            "82dc36b90d869eb0aa37cd801c6e78fd06de6a22",
+            "2025-05-22T01:47:29Z"
          ]
       ],
       "name" : "nixos-25.05-small"
@@ -1243,6 +1263,10 @@ const graphData = [
          [
             "595c22cce5205fa070f797b477978e91b123def0",
             "2025-05-21T01:48:32Z"
+         ],
+         [
+            "72e52f17642a6578b230f3156740069d64cfd6af",
+            "2025-05-22T01:47:29Z"
          ]
       ],
       "name" : "nixos-24.11-small"
@@ -1412,6 +1436,10 @@ const graphData = [
          [
             "a3552bafe05e3c2f24e6bc6482135837984f7073",
             "2025-05-20T01:49:23Z"
+         ],
+         [
+            "72e52f17642a6578b230f3156740069d64cfd6af",
+            "2025-05-22T01:47:31Z"
          ]
       ],
       "name" : "nixpkgs-24.11-darwin"
