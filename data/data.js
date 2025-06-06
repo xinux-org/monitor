@@ -167,10 +167,6 @@ const graphData = [
    {
       "history" : [
          [
-            "59e3cd3bfcd5e27bb7f4498a5bd15084cecdb77c",
-            "2025-03-06T01:31:14Z"
-         ],
-         [
             "7498c779d088e9aa62efd73f1145449ae1a90e0c",
             "2025-03-07T01:30:45Z"
          ],
@@ -517,6 +513,10 @@ const graphData = [
          [
             "a1ba3c5c21b2424ad0bd13bbbfa50ebfbd54823e",
             "2025-06-05T01:49:14Z"
+         ],
+         [
+            "0437b19f91616ae7e605253bb6b1944aa087d006",
+            "2025-06-06T01:48:50Z"
          ]
       ],
       "name" : "nixos-unstable-small"
@@ -795,6 +795,10 @@ const graphData = [
          [
             "8f1b52b04f2cb6e5ead50bd28d76528a2f0380ef",
             "2025-06-05T01:49:13Z"
+         ],
+         [
+            "4792576cb003c994bd7cc1edada3129def20b27d",
+            "2025-06-06T01:48:48Z"
          ]
       ],
       "name" : "nixos-25.05"
@@ -868,6 +872,10 @@ const graphData = [
          [
             "26a54a5886c238b5df6f1e9ba0aa713434d73f06",
             "2025-06-05T01:49:14Z"
+         ],
+         [
+            "4792576cb003c994bd7cc1edada3129def20b27d",
+            "2025-06-06T01:48:49Z"
          ]
       ],
       "name" : "nixos-25.05-small"
@@ -921,16 +929,16 @@ const graphData = [
          [
             "29bd828a262a682ef0c9bbb1057785a026d1e829",
             "2025-06-05T01:49:16Z"
+         ],
+         [
+            "6350bbc7f7bfbddf191742ca55c1d18994549851",
+            "2025-06-06T01:48:52Z"
          ]
       ],
       "name" : "nixpkgs-25.05-darwin"
    },
    {
       "history" : [
-         [
-            "6af28b834daca767a7ef99f8a7defa957d0ade6f",
-            "2025-03-06T01:31:14Z"
-         ],
          [
             "48913d8f9127ea6530a2a2f1bd4daa1b8685d8a3",
             "2025-03-07T01:30:44Z"
@@ -1580,6 +1588,10 @@ const graphData = [
          [
             "667858166b89c072208ac151fa9502513d7d8389",
             "2025-06-05T01:49:16Z"
+         ],
+         [
+            "94164baa35bd4ef72b111f79fdf629d1ab9f416b",
+            "2025-06-06T01:48:52Z"
          ]
       ],
       "name" : "nixpkgs-24.11-darwin"
