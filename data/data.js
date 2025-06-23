@@ -148,16 +148,16 @@ const graphData = [
          [
             "08f22084e6085d19bcfb4be30d1ca76ecb96fe54",
             "2025-06-21T01:48:22Z"
+         ],
+         [
+            "4206c4cb56751df534751b058295ea61357bbbaa",
+            "2025-06-23T01:56:38Z"
          ]
       ],
       "name" : "nixos-unstable"
    },
    {
       "history" : [
-         [
-            "3fcae17eabac8fdc6599d1c67d89726af3682613",
-            "2025-03-23T01:37:21Z"
-         ],
          [
             "53673a2933fb84da39b31f4a824a386e4b39a631",
             "2025-03-24T01:34:12Z"
@@ -497,16 +497,16 @@ const graphData = [
          [
             "86c02c145a0b6ae0fab47564e0a003a967203f46",
             "2025-06-22T01:57:59Z"
+         ],
+         [
+            "e2d9c5bd3cd01115da3fc48c5d46b508a2c5deb1",
+            "2025-06-23T01:56:39Z"
          ]
       ],
       "name" : "nixos-unstable-small"
    },
    {
       "history" : [
-         [
-            "94c4dbe77c0740ebba36c173672ca15a7926c993",
-            "2025-03-23T01:37:22Z"
-         ],
          [
             "dd613136ee91f67e5dba3f3f41ac99ae89c5406b",
             "2025-03-24T01:34:14Z"
@@ -948,6 +948,10 @@ const graphData = [
          [
             "0c726b2d92db7207d5091da376d961a0112d4e44",
             "2025-06-22T01:57:58Z"
+         ],
+         [
+            "93e97bf67ec9fbbcfeae0fe45872b743b81ac21c",
+            "2025-06-23T01:56:38Z"
          ]
       ],
       "name" : "nixos-25.05-small"
@@ -1212,10 +1216,6 @@ const graphData = [
    },
    {
       "history" : [
-         [
-            "904178ac5c12ff07a359fbb20453a977f0b7effd",
-            "2025-03-23T01:37:20Z"
-         ],
          [
             "0ab4a35ea3f79f11018702be57548589170f93f6",
             "2025-03-24T01:34:12Z"
@@ -1515,6 +1515,10 @@ const graphData = [
          [
             "d20d9ce870cdf5c17ee035682c26ad171c0b269a",
             "2025-06-22T01:57:58Z"
+         ],
+         [
+            "718ac1037932c90975f9525caef54e2d8cf95267",
+            "2025-06-23T01:56:38Z"
          ]
       ],
       "name" : "nixos-24.11-small"
