@@ -18,7 +18,6 @@
 {name: 'nixos-unstable-small', type: 'scatter', keys: ['commit', 'x', 'y'],
 point: {events: { click: function() { window.open("https://github.com/NixOS/nixpkgs/commit/" + this.commit); }}},
 data: [
-    ["30705076a1748a2b2a1cf0539ea1665eef4d2f4a", 1743816734000, 3],
     ["06f3516b0397bd241bde2daefc8538fc886c5467", 1743903498000, 3],
     ["48382072d09ce1c72f2a6f716afaecd643226542", 1744076041000, 3],
     ["ef3a956f697525883b77192cbe208233ea0f8f79", 1744248828000, 3],
@@ -103,6 +102,7 @@ data: [
     ["78b1214c25f57e9161790d6bf9e117e82dfc2f77", 1751421087000, 3],
     ["12d516726903aae3c89fe2b6b65a6880c7101c25", 1751507501000, 3],
     ["f596e2141c241f5cca21188543cd4dcda32f2c3c", 1751593892000, 3],
+    ["a2867cc3f8acc944cb19fe0b73c840e9fa1ba589", 1751680056000, 3],
 ]},
 {name: 'nixos-unstable', type: 'scatter', keys: ['commit', 'x', 'y'],
 point: {events: { click: function() { window.open("https://github.com/NixOS/nixpkgs/commit/" + this.commit); }}},
@@ -206,11 +206,11 @@ data: [
     ["d31a91c9b3bee464d054633d5f8b84e17a637862", 1751421090000, 8],
     ["b32441ec0fae600e647cf4e6d6c245286a583106", 1751507502000, 8],
     ["d55716bb59b91ae9d1ced4b1ccdea7a442ecbfdb", 1751593893000, 8],
+    ["c860cf0b3a0829f0f6cf344ca8de83a2bbfab428", 1751680058000, 8],
 ]},
 {name: 'nixos-24.11-small', type: 'scatter', keys: ['commit', 'x', 'y'],
 point: {events: { click: function() { window.open("https://github.com/NixOS/nixpkgs/commit/" + this.commit); }}},
 data: [
-    ["749bd56cf89ec71d3c953d5fbfe27ede27d04c37", 1743816733000, 71],
     ["f27c6099cec4fe9b67c7fbc51d8324dcb4b52694", 1743989746000, 71],
     ["db8f4fe18ce772a9c8f3adf321416981c8fe9371", 1744076040000, 71],
     ["a62d20dd366a941a588bfe3c814826cf631a0554", 1744162450000, 71],
@@ -287,7 +287,6 @@ data: [
 {name: 'nixos-24.11', type: 'scatter', keys: ['commit', 'x', 'y'],
 point: {events: { click: function() { window.open("https://github.com/NixOS/nixpkgs/commit/" + this.commit); }}},
 data: [
-    ["bdb91860de2f719b57eef819b5617762f7120c70", 1743816733000, 72],
     ["7819a0d29d1dd2bc331bec4b327f0776359b1fa6", 1743989746000, 72],
     ["a880f49904d68b5e53338d1e8c7bf80f59903928", 1744076040000, 72],
     ["60e405b241edb6f0573f3d9f944617fe33ac4a73", 1744248827000, 72],
@@ -330,7 +329,6 @@ data: [
 {name: 'nixpkgs-24.11-darwin', type: 'scatter', keys: ['commit', 'x', 'y'],
 point: {events: { click: function() { window.open("https://github.com/NixOS/nixpkgs/commit/" + this.commit); }}},
 data: [
-    ["5051ae6744b993fcfab221e8bd38f8bc26f88393", 1743816736000, 73],
     ["7819a0d29d1dd2bc331bec4b327f0776359b1fa6", 1743903499000, 73],
     ["f27c6099cec4fe9b67c7fbc51d8324dcb4b52694", 1743989748000, 73],
     ["5ab30477b63c34d2c1e909e464a96b13fa73da0b", 1744162451000, 73],
@@ -420,6 +418,7 @@ data: [
     ["39c739f6ef3eb6add480166b2ce98db21c65234c", 1751421087000, 74],
     ["34627c90f062da515ea358360f448da57769236e", 1751507500000, 74],
     ["2ff6a8fcb87bff902adbd21b302293436d87ceac", 1751593891000, 74],
+    ["7a732ed41ca0dd64b4b71b563ab9805a80a7d693", 1751680055000, 74],
 ]},
 {name: 'nixos-25.05', type: 'scatter', keys: ['commit', 'x', 'y'],
 point: {events: { click: function() { window.open("https://github.com/NixOS/nixpkgs/commit/" + this.commit); }}},
@@ -446,6 +445,7 @@ data: [
     ["7284e2decc982b81a296ab35aa46e804baaa1cfe", 1750989180000, 75],
     ["a676066377a2fe7457369dd37c31fd2263b662f4", 1751075279000, 75],
     ["b43c397f6c213918d6cfe6e3550abfe79b5d1c51", 1751335323000, 75],
+    ["7a732ed41ca0dd64b4b71b563ab9805a80a7d693", 1751680055000, 75],
 ]},
 {name: 'nixpkgs-25.05-darwin', type: 'scatter', keys: ['commit', 'x', 'y'],
 point: {events: { click: function() { window.open("https://github.com/NixOS/nixpkgs/commit/" + this.commit); }}},
@@ -478,6 +478,7 @@ data: [
     ["f7d1b62ae0bda6cc444ba2a75911c0f56a107458", 1751248564000, 76],
     ["e410afb41ba16a2ceeaeff85c536d35f10bbbdcf", 1751335325000, 76],
     ["2c9abb11f4780e7954cd76c7d85441003da21fc8", 1751421090000, 76],
+    ["7a732ed41ca0dd64b4b71b563ab9805a80a7d693", 1751680058000, 76],
 ]},
   ]
 });
