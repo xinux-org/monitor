@@ -2,10 +2,6 @@ const graphData = [
    {
       "history" : [
          [
-            "3730d8a308f94996a9ba7c7138ede69c1b9ac4ae",
-            "2025-05-07T01:38:40Z"
-         ],
-         [
             "dda3dcd3fe03e991015e9a74b22d35950f264a54",
             "2025-05-09T01:38:14Z"
          ],
@@ -146,10 +142,6 @@ const graphData = [
    },
    {
       "history" : [
-         [
-            "e7072d135f40c89bbb37fc5316dd9723967ee06a",
-            "2025-05-07T01:38:40Z"
-         ],
          [
             "c254c7915de93e18fdb0813d589a215da9c78a1b",
             "2025-05-08T01:38:38Z"
@@ -505,6 +497,10 @@ const graphData = [
          [
             "18b83096918e5a6a4ca0a0801cb29c8d7edd9584",
             "2025-08-06T02:05:34Z"
+         ],
+         [
+            "c2ae88e026f9525daf89587f3cbee584b92b6134",
+            "2025-08-07T02:01:54Z"
          ]
       ],
       "name" : "nixos-unstable-small"
@@ -766,6 +762,10 @@ const graphData = [
          [
             "cab778239e705082fe97bb4990e0d24c50924c04",
             "2025-08-06T02:05:36Z"
+         ],
+         [
+            "a683adc19ff5228af548c6539dbc3440509bfed3",
+            "2025-08-07T02:01:57Z"
          ]
       ],
       "name" : "nixpkgs-unstable"
@@ -1212,6 +1212,10 @@ const graphData = [
          [
             "c0b2405c1d88328e059119fb5576206f0e137e3b",
             "2025-08-06T02:05:34Z"
+         ],
+         [
+            "910d93e3eed071fd008a0d52d3ef135f0b50e63f",
+            "2025-08-07T02:01:54Z"
          ]
       ],
       "name" : "nixos-25.05-small"
@@ -1525,10 +1529,6 @@ const graphData = [
    {
       "history" : [
          [
-            "c6aca34d2ca2ce9e20b722f54e684cda64b275c2",
-            "2025-05-07T01:38:40Z"
-         ],
-         [
             "d30125e98b05342aaa8b0013fe3e8425292ac795",
             "2025-05-08T01:38:38Z"
          ],
@@ -1717,10 +1717,6 @@ const graphData = [
    },
    {
       "history" : [
-         [
-            "89140b70abfdc4c22481776e1c9df92fb631b173",
-            "2025-05-07T01:38:41Z"
-         ],
          [
             "209c5b3b0f5cf5b5a7e12ddea59bf19699f97e75",
             "2025-05-08T01:38:39Z"
