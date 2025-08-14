@@ -136,16 +136,16 @@ const graphData = [
          [
             "85dbfc7aaf52ecb755f87e577ddbe6dbbdbc1054",
             "2025-08-11T02:01:04Z"
+         ],
+         [
+            "005433b926e16227259a1843015b5b2b7f7d1fc3",
+            "2025-08-14T01:52:36Z"
          ]
       ],
       "name" : "nixos-unstable"
    },
    {
       "history" : [
-         [
-            "fab95ba4b9523f310644e6e6087c0014535c8e02",
-            "2025-05-14T01:38:04Z"
-         ],
          [
             "b112281ce6d4d1b0d892098bebe76861134c44c2",
             "2025-05-15T01:42:58Z"
@@ -501,16 +501,16 @@ const graphData = [
          [
             "cca779286a4dfd33a04d11954829dfeca0904b79",
             "2025-08-13T01:52:18Z"
+         ],
+         [
+            "d4df8d6cc1ccfd3e4349a1d54e4fb1171e7ec1f5",
+            "2025-08-14T01:52:36Z"
          ]
       ],
       "name" : "nixos-unstable-small"
    },
    {
       "history" : [
-         [
-            "eaeed9530c76ce5f1d2d8232e08bec5e26f18ec1",
-            "2025-05-14T01:38:05Z"
-         ],
          [
             "b1bebd0fe266bbd1820019612ead889e96a8fa2d",
             "2025-05-16T01:47:40Z"
@@ -782,6 +782,10 @@ const graphData = [
          [
             "372d9eeeafa5b15913201e2b92e8e539ac7c64d1",
             "2025-08-13T01:52:19Z"
+         ],
+         [
+            "d74de548348c46cf25cb1fcc4b74f38103a4590d",
+            "2025-08-14T01:52:38Z"
          ]
       ],
       "name" : "nixpkgs-unstable"
@@ -1272,6 +1276,10 @@ const graphData = [
          [
             "216c1318892aa8236e38dcbc6dfd976f5eff4e48",
             "2025-08-13T01:52:17Z"
+         ],
+         [
+            "62391815818d8e16e0e09335c1406b24aea8ddcd",
+            "2025-08-14T01:52:36Z"
          ]
       ],
       "name" : "nixos-25.05-small"
@@ -1592,10 +1600,6 @@ const graphData = [
    },
    {
       "history" : [
-         [
-            "180a802f194a0789da20964e35ba1d9afe6ca38f",
-            "2025-05-14T01:38:04Z"
-         ],
          [
             "97bd66213bef339d11520ee2e84e3907394b16c7",
             "2025-05-15T01:42:57Z"
