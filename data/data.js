@@ -139,10 +139,6 @@ const graphData = [
    {
       "history" : [
          [
-            "7ab490624e297ff96f52858bb32b504516b8bb61",
-            "2025-06-04T01:50:28Z"
-         ],
-         [
             "a1ba3c5c21b2424ad0bd13bbbfa50ebfbd54823e",
             "2025-06-05T01:49:14Z"
          ],
@@ -497,16 +493,16 @@ const graphData = [
          [
             "3f29c71a26f20c830b3708d02bfa62fb1890354a",
             "2025-09-04T01:31:22Z"
+         ],
+         [
+            "36420cc41abb467f89082432cfe139f5fdbdcea3",
+            "2025-09-05T01:33:26Z"
          ]
       ],
       "name" : "nixos-unstable-small"
    },
    {
       "history" : [
-         [
-            "e4b09e47ace7d87de083786b404bf232eb6c89d8",
-            "2025-06-04T01:50:29Z"
-         ],
          [
             "a4ff0e3c64846abea89662bfbacf037ef4b34207",
             "2025-06-07T01:48:01Z"
@@ -1296,16 +1292,16 @@ const graphData = [
          [
             "0eb20446812c77c87b7620fda95af7d39c55a592",
             "2025-09-04T01:31:21Z"
+         ],
+         [
+            "cb4190e6276d053ee2bb6c0b8acfc3de74ec3ec3",
+            "2025-09-05T01:33:26Z"
          ]
       ],
       "name" : "nixos-25.05-small"
    },
    {
       "history" : [
-         [
-            "a8167f3cc2f991dd4d0055746df53dae5fd0c953",
-            "2025-06-04T01:50:29Z"
-         ],
          [
             "29bd828a262a682ef0c9bbb1057785a026d1e829",
             "2025-06-05T01:49:16Z"
@@ -1545,16 +1541,16 @@ const graphData = [
          [
             "c370743bb648ff9ac566b5e04c97e386dec1ac82",
             "2025-09-03T01:31:34Z"
+         ],
+         [
+            "8f8dad7546c1a1a5d336f88d03d72957e70a85c7",
+            "2025-09-05T01:33:27Z"
          ]
       ],
       "name" : "nixpkgs-25.05-darwin"
    },
    {
       "history" : [
-         [
-            "78d9f40fd6941a1543ffc3ed358e19c69961d3c1",
-            "2025-06-04T01:50:27Z"
-         ],
          [
             "8eb3b6a2366a7095939cd22f0dc0e9991313294b",
             "2025-06-05T01:49:13Z"
