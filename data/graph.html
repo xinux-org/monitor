@@ -18,7 +18,6 @@
 {name: 'nixos-unstable-small', type: 'scatter', keys: ['commit', 'x', 'y'],
 point: {events: { click: function() { window.open("https://github.com/NixOS/nixpkgs/commit/" + this.commit); }}},
 data: [
-    ["0fbc85d348db795d46453097b151c08712b86a84", 1750038827000, 3],
     ["526945c5798687e32d4a6f8a93660fe2ca152ae2", 1750125070000, 3],
     ["fd0c3334ecad1bde2d3b667d52d1df77698e84f1", 1750211412000, 3],
     ["4283f162aa9eec017b9f95ac061a4bf4606a3371", 1750297854000, 3],
@@ -109,6 +108,7 @@ data: [
     ["4b46c744cbd5f9336027dff287e74ead84d80041", 1757813922000, 3],
     ["a870b7409045459d9a4011ddd6a42acbb2faed9c", 1757900371000, 3],
     ["aa54acd34af0e86f49d55ea52823031e2da399df", 1757986332000, 3],
+    ["1bc4de0728f2eb1602fc5cce4122f2e999bc9d35", 1758072771000, 3],
 ]},
 {name: 'nixos-unstable', type: 'scatter', keys: ['commit', 'x', 'y'],
 point: {events: { click: function() { window.open("https://github.com/NixOS/nixpkgs/commit/" + this.commit); }}},
@@ -150,7 +150,6 @@ data: [
 {name: 'nixpkgs-unstable', type: 'scatter', keys: ['commit', 'x', 'y'],
 point: {events: { click: function() { window.open("https://github.com/NixOS/nixpkgs/commit/" + this.commit); }}},
 data: [
-    ["41da1e3ea8e23e094e5e3eeb1e6b830468a7399e", 1750038828000, 8],
     ["c539ae8d21e49776966d714f82fba33b1fca78bc", 1750211413000, 8],
     ["5395fb3ab3f97b9b7abca147249fa2e8ed27b192", 1750297855000, 8],
     ["076e8c6678d8c54204abcb4b1b14c366835a58bb", 1750557480000, 8],
@@ -215,11 +214,11 @@ data: [
     ["ad4e6dd68c30bc8bd1860a27bc6f0c485bd7f3b6", 1757726946000, 8],
     ["6d7ec06d6868ac6d94c371458fc2391ded9ff13d", 1757813924000, 8],
     ["88cef159e47c0dc56f151593e044453a39a6e547", 1757986334000, 8],
+    ["08b8f92ac6354983f5382124fef6006cade4a1c1", 1758072774000, 8],
 ]},
 {name: 'nixos-24.11-small', type: 'scatter', keys: ['commit', 'x', 'y'],
 point: {events: { click: function() { window.open("https://github.com/NixOS/nixpkgs/commit/" + this.commit); }}},
 data: [
-    ["c64c24ce7d6766b863987c1d516e039c8cadd460", 1750038826000, 71],
     ["2f913f37ac91d3dda25c9259f17dbedcf908a157", 1750125069000, 71],
     ["ad5c70bcc5cc5178205161b7a7d61a6e80f6d244", 1750211411000, 71],
     ["b67b0e45b68c428b46ad4b3f8264639fcc0b99e3", 1750297853000, 71],
@@ -238,7 +237,6 @@ data: [
 {name: 'nixos-24.11', type: 'scatter', keys: ['commit', 'x', 'y'],
 point: {events: { click: function() { window.open("https://github.com/NixOS/nixpkgs/commit/" + this.commit); }}},
 data: [
-    ["db8414903dd6b3042e1ac471eafc18ca4ccb54a4", 1750038826000, 72],
     ["daa45f10955cc2207ac9c5f0206774d2f757c162", 1750125068000, 72],
     ["ad5c70bcc5cc5178205161b7a7d61a6e80f6d244", 1750297853000, 72],
     ["d883b6213afa179b58ba8bace834f1419707d0ad", 1750470502000, 72],
@@ -250,7 +248,6 @@ data: [
 {name: 'nixpkgs-24.11-darwin', type: 'scatter', keys: ['commit', 'x', 'y'],
 point: {events: { click: function() { window.open("https://github.com/NixOS/nixpkgs/commit/" + this.commit); }}},
 data: [
-    ["e7373a508bb8648a57e8432251fb4f41d58dbae8", 1750038828000, 73],
     ["cef0f233467982417b7fb576a46cbd51da8a8717", 1750125072000, 73],
     ["ad5c70bcc5cc5178205161b7a7d61a6e80f6d244", 1750211413000, 73],
     ["b67b0e45b68c428b46ad4b3f8264639fcc0b99e3", 1750297855000, 73],
@@ -265,7 +262,6 @@ data: [
 {name: 'nixos-25.05-small', type: 'scatter', keys: ['commit', 'x', 'y'],
 point: {events: { click: function() { window.open("https://github.com/NixOS/nixpkgs/commit/" + this.commit); }}},
 data: [
-    ["309c59af092b9044a9edfc781cfbf6aa258403c9", 1750038826000, 74],
     ["b0e5e9247e06cd6aaf401bd87f485be4ee9b943d", 1750125069000, 74],
     ["b1a13f5afee14b4f417e8137733ccecb2de6475e", 1750211411000, 74],
     ["0d97fc51a6a53739f661a24d0e1962a4201b0047", 1750297854000, 74],
@@ -351,11 +347,11 @@ data: [
     ["994ca2f0ad146d4ea17313e7336c7436a20d87b4", 1757726942000, 74],
     ["9a094440e02a699be5c57453a092a8baf569bdad", 1757900371000, 74],
     ["8a8394b4a48dddee84887825495716197b4d206f", 1757986332000, 74],
+    ["f929b9baa4f6b07a47f1bc253c14b0b3d0b5e636", 1758072771000, 74],
 ]},
 {name: 'nixos-25.05', type: 'scatter', keys: ['commit', 'x', 'y'],
 point: {events: { click: function() { window.open("https://github.com/NixOS/nixpkgs/commit/" + this.commit); }}},
 data: [
-    ["5f4f306bea96741f1588ea4f450b2a2e29f42b98", 1750038826000, 75],
     ["6c64dabd3aa85e0c02ef1cdcb6e1213de64baee3", 1750125069000, 75],
     ["36ab78dab7da2e4e27911007033713bab534187b", 1750297854000, 75],
     ["9ba04bda9249d5d5e5238303c9755de5a49a79c5", 1750384207000, 75],
