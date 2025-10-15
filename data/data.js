@@ -143,10 +143,6 @@ const graphData = [
    {
       "history" : [
          [
-            "b47d4f01d4213715a1f09b999bab96bb6a5b675e",
-            "2025-07-14T01:59:59Z"
-         ],
-         [
             "d054496656771c1cb552ae0ea12233412bd6b6c2",
             "2025-07-15T02:01:22Z"
          ],
@@ -501,16 +497,16 @@ const graphData = [
          [
             "662e2ea08d7caacdfacdb92512a13b3f336f6e56",
             "2025-10-14T01:38:47Z"
+         ],
+         [
+            "db25466bd95abdbe3012be2900a5562fcfb95d51",
+            "2025-10-15T01:36:20Z"
          ]
       ],
       "name" : "nixos-unstable-small"
    },
    {
       "history" : [
-         [
-            "be9e214982e20b8310878ac2baa063a961c1bdf6",
-            "2025-07-14T02:00:03Z"
-         ],
          [
             "a421ac6595024edcfbb1ef950a3712b89161c359",
             "2025-07-16T02:00:50Z"
@@ -757,10 +753,6 @@ const graphData = [
    {
       "history" : [
          [
-            "650e572363c091045cdbc5b36b0f4c1f614d3058",
-            "2025-07-14T01:59:57Z"
-         ],
-         [
             "dfcd5b901dbab46c9c6e80b265648481aafb01f8",
             "2025-07-16T02:00:44Z"
          ],
@@ -927,16 +919,16 @@ const graphData = [
          [
             "7e297ddff44a3cc93673bb38d0374df8d0ad73e4",
             "2025-10-14T01:38:46Z"
+         ],
+         [
+            "a493e93b4a259cd9fea8073f89a7ed9b1c5a1da2",
+            "2025-10-15T01:36:20Z"
          ]
       ],
       "name" : "nixos-25.05"
    },
    {
       "history" : [
-         [
-            "dfcd5b901dbab46c9c6e80b265648481aafb01f8",
-            "2025-07-14T01:59:58Z"
-         ],
          [
             "a6de48f8415eb537363ee8afd5ded55d9f01c2c4",
             "2025-07-15T02:01:22Z"
@@ -1276,16 +1268,16 @@ const graphData = [
          [
             "6cd95994a9c8f7c6f8c1f1161be94119afdcb305",
             "2025-10-14T01:38:47Z"
+         ],
+         [
+            "f046bdaae96a706bbcc96084028cfc5412e3320f",
+            "2025-10-15T01:36:20Z"
          ]
       ],
       "name" : "nixos-25.05-small"
    },
    {
       "history" : [
-         [
-            "e40e235767b5b5bb5f9fd254c1aa42dd561fe21b",
-            "2025-07-14T02:00:03Z"
-         ],
          [
             "1156bb3c3d94de7c6a7dc798b42c98bb975f3a75",
             "2025-07-15T02:01:23Z"
