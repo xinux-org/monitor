@@ -2,10 +2,6 @@ const graphData = [
    {
       "history" : [
          [
-            "ab0f3607a6c7486ea22229b92ed2d355f1482ee0",
-            "2025-09-12T01:31:28Z"
-         ],
-         [
             "c23193b943c6c689d70ee98ce3128239ed9e32d1",
             "2025-09-14T01:38:41Z"
          ],
@@ -142,14 +138,6 @@ const graphData = [
    },
    {
       "history" : [
-         [
-            "b1809fe3b9fbee0944dd597082aff7b8648f3e6e",
-            "2025-09-12T01:31:28Z"
-         ],
-         [
-            "cb07f7da10cafa0330c57b7f24a0b82a076a8da1",
-            "2025-09-13T01:29:02Z"
-         ],
          [
             "4b46c744cbd5f9336027dff287e74ead84d80041",
             "2025-09-14T01:38:42Z"
@@ -493,16 +481,16 @@ const graphData = [
          [
             "6f313d8e9be4d7db523962ecc3ce97c951bacb1f",
             "2025-12-11T01:53:27Z"
+         ],
+         [
+            "64ac22e04a59eb2f781b1eaa534d8305dceb9f60",
+            "2025-12-13T01:38:59Z"
          ]
       ],
       "name" : "nixos-unstable-small"
    },
    {
       "history" : [
-         [
-            "ad4e6dd68c30bc8bd1860a27bc6f0c485bd7f3b6",
-            "2025-09-13T01:29:06Z"
-         ],
          [
             "6d7ec06d6868ac6d94c371458fc2391ded9ff13d",
             "2025-09-14T01:38:44Z"
@@ -718,6 +706,10 @@ const graphData = [
          [
             "677fbe97984e7af3175b6c121f3c39ee5c8d62c9",
             "2025-12-10T01:52:44Z"
+         ],
+         [
+            "5d6bdbddb4695a62f0d00a3620b37a15275a5093",
+            "2025-12-13T01:39:01Z"
          ]
       ],
       "name" : "nixpkgs-unstable"
@@ -820,6 +812,10 @@ const graphData = [
          [
             "1acf2f172ef3d6e31c9913ccb7ba07b13dadfedc",
             "2025-12-11T01:53:26Z"
+         ],
+         [
+            "bb89e582e88f24890e285c189acd5426f9381cb0",
+            "2025-12-13T01:38:58Z"
          ]
       ],
       "name" : "nixos-25.11-small"
@@ -873,16 +869,16 @@ const graphData = [
          [
             "70e07cde488313047e65a834aac31da04576216c",
             "2025-12-09T01:51:26Z"
+         ],
+         [
+            "ba1f2863ecffc4d23f2dfac4e5ecad2b0677be3f",
+            "2025-12-13T01:39:01Z"
          ]
       ],
       "name" : "nixpkgs-25.11-darwin"
    },
    {
       "history" : [
-         [
-            "8cd5ce828d5d1d16feff37340171a98fc3bf6526",
-            "2025-09-12T01:31:27Z"
-         ],
          [
             "9a094440e02a699be5c57453a092a8baf569bdad",
             "2025-09-15T01:39:31Z"
@@ -1014,20 +1010,16 @@ const graphData = [
          [
             "00d2457e2f608b4be6fe8b470b0a36816324b0ae",
             "2025-12-08T01:51:03Z"
+         ],
+         [
+            "d2b1213bf5ec5e62d96b003ab4b5cbc42abfc0d0",
+            "2025-12-13T01:38:58Z"
          ]
       ],
       "name" : "nixos-25.05"
    },
    {
       "history" : [
-         [
-            "df466d44c6ebe2c4d97f2c0b0cca8f1218d5a4ca",
-            "2025-09-12T01:31:27Z"
-         ],
-         [
-            "994ca2f0ad146d4ea17313e7336c7436a20d87b4",
-            "2025-09-13T01:29:02Z"
-         ],
          [
             "9a094440e02a699be5c57453a092a8baf569bdad",
             "2025-09-15T01:39:31Z"
@@ -1351,16 +1343,16 @@ const graphData = [
          [
             "0738efdb77594c885f02c3763b27e091837dec56",
             "2025-12-11T01:53:26Z"
+         ],
+         [
+            "155c64ac00715bb0bd14500733fd3bf4f3fd8648",
+            "2025-12-13T01:38:58Z"
          ]
       ],
       "name" : "nixos-25.05-small"
    },
    {
       "history" : [
-         [
-            "0ef228213045d2cdb5a169a95d63ded38670b293",
-            "2025-09-12T01:31:30Z"
-         ],
          [
             "e85b5aa112a98805a016bbf6291e726debbc448a",
             "2025-09-14T01:38:44Z"
@@ -1596,6 +1588,10 @@ const graphData = [
          [
             "0738efdb77594c885f02c3763b27e091837dec56",
             "2025-12-11T01:53:29Z"
+         ],
+         [
+            "59d4bb7fb48f61789bf98ab50b0b8ad3d6720e8f",
+            "2025-12-13T01:39:01Z"
          ]
       ],
       "name" : "nixpkgs-25.05-darwin"
