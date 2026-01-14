@@ -2,10 +2,6 @@ const graphData = [
    {
       "history" : [
          [
-            "cf3f5c4def3c7b5f1fc012b3d839575dbe552d43",
-            "2025-10-14T01:38:47Z"
-         ],
-         [
             "544961dfcce86422ba200ed9a0b00dd4b1486ec5",
             "2025-10-16T01:35:52Z"
          ],
@@ -142,10 +138,6 @@ const graphData = [
    },
    {
       "history" : [
-         [
-            "662e2ea08d7caacdfacdb92512a13b3f336f6e56",
-            "2025-10-14T01:38:47Z"
-         ],
          [
             "db25466bd95abdbe3012be2900a5562fcfb95d51",
             "2025-10-15T01:36:20Z"
@@ -489,16 +481,16 @@ const graphData = [
          [
             "b4582865299cf58f84d259734a7bacdeff6f2c64",
             "2026-01-13T01:54:34Z"
+         ],
+         [
+            "a5d4f909c3059e4172b59c5362db73ec58903cce",
+            "2026-01-14T02:00:37Z"
          ]
       ],
       "name" : "nixos-unstable-small"
    },
    {
       "history" : [
-         [
-            "c12c63cd6c5eb34c7b4c3076c6a99e00fcab86ec",
-            "2025-10-14T01:38:50Z"
-         ],
          [
             "82c2e0d6dde50b17ae366d2aa36f224dc19af469",
             "2025-10-16T01:35:55Z"
@@ -738,6 +730,10 @@ const graphData = [
          [
             "3fbab70c6e69c87ea2b6e48aa6629da2aa6a23b0",
             "2026-01-13T01:54:36Z"
+         ],
+         [
+            "61db79b0c6b838d9894923920b612048e1201926",
+            "2026-01-14T02:00:39Z"
          ]
       ],
       "name" : "nixpkgs-unstable"
@@ -835,6 +831,10 @@ const graphData = [
          [
             "d03088749a110d52a4739348f39a63f84bb0be14",
             "2026-01-12T02:01:59Z"
+         ],
+         [
+            "1327e798cb055f96f92685df444e9a2c326ab5ed",
+            "2026-01-14T02:00:36Z"
          ]
       ],
       "name" : "nixos-25.11"
@@ -1132,10 +1132,6 @@ const graphData = [
    {
       "history" : [
          [
-            "7e297ddff44a3cc93673bb38d0374df8d0ad73e4",
-            "2025-10-14T01:38:46Z"
-         ],
-         [
             "a493e93b4a259cd9fea8073f89a7ed9b1c5a1da2",
             "2025-10-15T01:36:20Z"
          ],
@@ -1248,10 +1244,6 @@ const graphData = [
    },
    {
       "history" : [
-         [
-            "6cd95994a9c8f7c6f8c1f1161be94119afdcb305",
-            "2025-10-14T01:38:47Z"
-         ],
          [
             "f046bdaae96a706bbcc96084028cfc5412e3320f",
             "2025-10-15T01:36:20Z"
@@ -1533,10 +1525,6 @@ const graphData = [
    },
    {
       "history" : [
-         [
-            "6cd95994a9c8f7c6f8c1f1161be94119afdcb305",
-            "2025-10-14T01:38:50Z"
-         ],
          [
             "5fccb5cc83e7c41a22ddd9435d31b3661cbd0e64",
             "2025-10-16T01:35:55Z"
