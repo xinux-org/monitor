@@ -22,6 +22,10 @@
       pkgs.gnumake
       pkgs.gnused
       pkgs.gnugrep
+      pkgs.gawk
+      pkgs.git
+      pkgs.jq
+      pkgs.recode
     ]}
   '';
 
