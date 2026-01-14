@@ -12,6 +12,19 @@
   # Helpful functions
   inherit (pkgs) lib;
 
+  wrapper = script: ''
+    wrapProgram $out/bin/${script} \
+      --set PATH ${lib.makeBinPath [
+      perl
+      pkgs.curl
+      pkgs.coreutils
+      pkgs.findutils
+      pkgs.gnumake
+      pkgs.gnused
+      pkgs.gnugrep
+    ]}
+  '';
+
   # Wrapped perl
   perl = pkgs.perl.withPackages (ps: with ps; [JSON DateTime HTMLTidy]);
 in
@@ -33,8 +46,8 @@ in
 
     nativeBuildInputs =
       (with pkgs; [
-        pkgs.curl
-        pkgs.shellcheck
+        shellcheck
+        makeWrapper
       ])
       ++ [perl];
 
@@ -42,6 +55,12 @@ in
       install -Dv calculate $out/bin/calculate
       install -Dv calculate-and-push $out/bin/calculate-and-push
       install -Dv make-index $out/bin/make-index
+    '';
+
+    postFixup = ''
+      ${wrapper "calculate"}
+      ${wrapper "calculate-and-push"}
+      ${wrapper "make-index"}
     '';
 
     meta = with lib; {

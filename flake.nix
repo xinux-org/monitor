@@ -3,7 +3,7 @@
 
   inputs = {
     # Too old to work with most libraries
-    # nixpkgs.url = "github:nixos/nixpkgs/nixos-24.11";
+    # nixpkgs.url = "github:nixos/nixpkgs/nixos-25.11";
 
     # Perfect!
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
@@ -24,11 +24,7 @@
         "x86_64-darwin"
         "aarch64-darwin"
       ];
-      perSystem = {
-        pkgs,
-        system,
-        ...
-      }: {
+      perSystem = {pkgs, ...}: {
         # Nix script formatter
         formatter = pkgs.alejandra;
 
