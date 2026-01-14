@@ -2,4 +2,7 @@
 /result
 
 # Cloned repo
-nixpkgs
+/nixpkgs
+
+# Direnv
+.direnv

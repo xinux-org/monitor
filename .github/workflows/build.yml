@@ -1,11 +1,11 @@
-name: Update and push changes to repository
+name: Update CI
 
 on:
   push:
     branches: ["main"]
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: "0 0 * * *"
 
 permissions:
   contents: write
@@ -17,19 +17,16 @@ jobs:
     runs-on: self-hosted
 
     steps:
-    - uses: actions/checkout@v4
-      with:
-        fetch-depth: 0
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-    - uses: DeterminateSystems/nix-installer-action@main
-    - uses: DeterminateSystems/flakehub-cache-action@main
+      - name: Generate datas
+        run: nix run
 
-    - name: Generate datas
-      run: nix run
-
-    - name: Commit everything and push
-      uses: stefanzweifel/git-auto-commit-action@v5
-      with:
-        commit_message: Update databases
-        commit_user_email: developers@floss.uz
-        commit_author: GitHub Actions <developers@floss.uz>
+      - name: Commit everything and push
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Update databases ${{ github.event.repository.updated_at}}
+          commit_user_email: buckle_scouts3y@icloud.com
+          commit_author: Xinux Manager <buckle_scouts3y@icloud.com>
