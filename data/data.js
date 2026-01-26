@@ -136,16 +136,16 @@ const graphData = [
          [
             "88d3861acdd3d2f0e361767018218e51810df8a1",
             "2026-01-23T01:48:19Z"
+         ],
+         [
+            "c5296fdd05cfa2c187990dd909864da9658df755",
+            "2026-01-26T01:57:44Z"
          ]
       ],
       "name" : "nixos-unstable"
    },
    {
       "history" : [
-         [
-            "6a08e6bb4e46ff7fcbb53d409b253f6bad8a28ce",
-            "2025-10-26T01:48:36Z"
-         ],
          [
             "dd27ec5838745c94afda13e6e88f80fc260bee6f",
             "2025-10-27T01:51:48Z"
@@ -489,16 +489,16 @@ const graphData = [
          [
             "60f9d776547020ff3be5a2cfbd0a457fddd88ecc",
             "2026-01-25T01:58:16Z"
+         ],
+         [
+            "16036e94014363dd8e12a26a38b071bcc1e41b41",
+            "2026-01-26T01:57:44Z"
          ]
       ],
       "name" : "nixos-unstable-small"
    },
    {
       "history" : [
-         [
-            "02f2cb8e0feb4596d20cc52fda73ccee960e3538",
-            "2025-10-26T01:48:38Z"
-         ],
          [
             "de69d2ba6c70e747320df9c096523b623d3a4c35",
             "2025-10-28T01:35:04Z"
@@ -746,6 +746,10 @@ const graphData = [
          [
             "ab9fbbcf4858bd6d40ba2bbec37ceb4ab6e1f562",
             "2026-01-25T01:58:19Z"
+         ],
+         [
+            "48698d12cc10555a4f3e3222d9c669b884a49dfe",
+            "2026-01-26T01:57:47Z"
          ]
       ],
       "name" : "nixpkgs-unstable"
@@ -1068,6 +1072,10 @@ const graphData = [
          [
             "701745df06da2b6189f1f935c560d90f67b4254b",
             "2026-01-25T01:58:15Z"
+         ],
+         [
+            "145fdb350cfaa360ff356edf6e85430b231dd5c6",
+            "2026-01-26T01:57:44Z"
          ]
       ],
       "name" : "nixos-25.11-small"
@@ -1300,10 +1308,6 @@ const graphData = [
    },
    {
       "history" : [
-         [
-            "13eecfd646de5d041b882eb4c1f443dda3ea2fc2",
-            "2025-10-26T01:48:36Z"
-         ],
          [
             "2ab7841f414ccdefea889707b2d5e4b32cda9729",
             "2025-10-27T01:51:48Z"
