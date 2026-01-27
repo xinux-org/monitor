@@ -2,10 +2,6 @@ const graphData = [
    {
       "history" : [
          [
-            "6a08e6bb4e46ff7fcbb53d409b253f6bad8a28ce",
-            "2025-10-27T01:51:48Z"
-         ],
-         [
             "08dacfca559e1d7da38f3cf05f1f45ee9bfd213c",
             "2025-10-30T01:48:31Z"
          ],
@@ -146,10 +142,6 @@ const graphData = [
    },
    {
       "history" : [
-         [
-            "dd27ec5838745c94afda13e6e88f80fc260bee6f",
-            "2025-10-27T01:51:48Z"
-         ],
          [
             "3796dbcc0de8f8ba0e2bbd11ee7805343691ba38",
             "2025-10-28T01:35:02Z"
@@ -493,6 +485,10 @@ const graphData = [
          [
             "16036e94014363dd8e12a26a38b071bcc1e41b41",
             "2026-01-26T01:57:44Z"
+         ],
+         [
+            "9c2822d7024c032e66000a8b8a47e91b4e63ffc8",
+            "2026-01-27T01:54:30Z"
          ]
       ],
       "name" : "nixos-unstable-small"
@@ -750,6 +746,10 @@ const graphData = [
          [
             "48698d12cc10555a4f3e3222d9c669b884a49dfe",
             "2026-01-26T01:57:47Z"
+         ],
+         [
+            "5b265bda51b42a2a85af0a543c3e57b778b01b7d",
+            "2026-01-27T01:54:33Z"
          ]
       ],
       "name" : "nixpkgs-unstable"
@@ -871,6 +871,10 @@ const graphData = [
          [
             "078d69f03934859a181e81ba987c2bb033eebfc5",
             "2026-01-24T01:48:42Z"
+         ],
+         [
+            "1cd347bf3355fce6c64ab37d3967b4a2cb4b878c",
+            "2026-01-27T01:54:29Z"
          ]
       ],
       "name" : "nixos-25.11"
@@ -1309,10 +1313,6 @@ const graphData = [
    {
       "history" : [
          [
-            "2ab7841f414ccdefea889707b2d5e4b32cda9729",
-            "2025-10-27T01:51:48Z"
-         ],
-         [
             "daf6dc47aa4b44791372d6139ab7b25269184d55",
             "2025-10-28T01:35:01Z"
          ],
@@ -1541,10 +1541,6 @@ const graphData = [
    },
    {
       "history" : [
-         [
-            "08478b816182dc3cc208210b996294411690111d",
-            "2025-10-27T01:51:50Z"
-         ],
          [
             "da469ebd170db5b0c9b958cd98ae48f78a39aaf4",
             "2025-10-30T01:48:33Z"
