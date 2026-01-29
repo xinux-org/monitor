@@ -136,16 +136,16 @@ const graphData = [
          [
             "c5296fdd05cfa2c187990dd909864da9658df755",
             "2026-01-26T01:57:44Z"
+         ],
+         [
+            "bfc1b8a4574108ceef22f02bafcf6611380c100d",
+            "2026-01-29T02:07:12Z"
          ]
       ],
       "name" : "nixos-unstable"
    },
    {
       "history" : [
-         [
-            "7f2539ca08e04c9bd337c00a80fefec5bd146b29",
-            "2025-10-29T01:49:21Z"
-         ],
          [
             "061c55856b29b8b9360e14231a0986c7f85f1130",
             "2025-10-30T01:48:32Z"
@@ -489,16 +489,16 @@ const graphData = [
          [
             "ff8aa693ba368484135f76db7e119f79419e8065",
             "2026-01-28T01:50:48Z"
+         ],
+         [
+            "69459b3b3ea735e9933e1e367db3e68334cce3fe",
+            "2026-01-29T02:07:12Z"
          ]
       ],
       "name" : "nixos-unstable-small"
    },
    {
       "history" : [
-         [
-            "1666250dbe4141e4ca8aaf89b40a3a51c2e36144",
-            "2025-10-29T01:49:23Z"
-         ],
          [
             "e99366c665bdd53b7b500ccdc5226675cfc51f45",
             "2025-10-30T01:48:33Z"
@@ -750,6 +750,10 @@ const graphData = [
          [
             "13b0f9e6ac78abbbb736c635d87845c4f4bee51b",
             "2026-01-28T01:50:51Z"
+         ],
+         [
+            "afce96367b2e37fc29afb5543573cd49db3357b7",
+            "2026-01-29T02:07:15Z"
          ]
       ],
       "name" : "nixpkgs-unstable"
@@ -875,6 +879,10 @@ const graphData = [
          [
             "1cd347bf3355fce6c64ab37d3967b4a2cb4b878c",
             "2026-01-27T01:54:29Z"
+         ],
+         [
+            "fa83fd837f3098e3e678e6cf017b2b36102c7211",
+            "2026-01-29T02:07:11Z"
          ]
       ],
       "name" : "nixos-25.11"
@@ -1084,6 +1092,10 @@ const graphData = [
          [
             "999ca0e5484922624254294ea1adc2b90081579e",
             "2026-01-28T01:50:47Z"
+         ],
+         [
+            "c6d9bb8b737709895a799d931de48fa76b572dc8",
+            "2026-01-29T02:07:11Z"
          ]
       ],
       "name" : "nixos-25.11-small"
