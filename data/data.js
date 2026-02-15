@@ -2,10 +2,6 @@ const graphData = [
    {
       "history" : [
          [
-            "c5ae371f1a6a7fd27823bc500d9390b38c05fa55",
-            "2025-11-15T01:36:39Z"
-         ],
-         [
             "50a96edd8d0db6cc8db57dab6bb6d6ee1f3dc49a",
             "2025-11-18T01:38:56Z"
          ],
@@ -144,16 +140,16 @@ const graphData = [
          [
             "ec7c70d12ce2fc37cb92aff673dcdca89d187bae",
             "2026-02-13T02:23:42Z"
+         ],
+         [
+            "a82ccc39b39b621151d6732718e3e250109076fa",
+            "2026-02-15T02:23:12Z"
          ]
       ],
       "name" : "nixos-unstable"
    },
    {
       "history" : [
-         [
-            "534d5ee716a5f547efa4f3563d3592527e30329c",
-            "2025-11-15T01:36:39Z"
-         ],
          [
             "66d930cb8792aea66f1bb2562f26f08d2ce8c3db",
             "2025-11-16T01:52:18Z"
@@ -505,6 +501,10 @@ const graphData = [
          [
             "2c4dbe7e217aa8f06a0e5a76169cc28f5de10b4b",
             "2026-02-14T02:04:56Z"
+         ],
+         [
+            "ade8a1892d8f76616100c4d0de56f642ac4b004f",
+            "2026-02-15T02:23:12Z"
          ]
       ],
       "name" : "nixos-unstable-small"
@@ -915,6 +915,10 @@ const graphData = [
          [
             "6c5e707c6b5339359a9a9e215c5e66d6d802fd7a",
             "2026-02-12T02:13:47Z"
+         ],
+         [
+            "3aadb7ca9eac2891d52a9dec199d9580a6e2bf44",
+            "2026-02-15T02:23:12Z"
          ]
       ],
       "name" : "nixos-25.11"
@@ -1180,6 +1184,10 @@ const graphData = [
          [
             "e0fc05231c1a626191e7d6e4110915672a5da32d",
             "2026-02-13T02:23:41Z"
+         ],
+         [
+            "8288879c586112e4c5a6390f8a7fa0543a7bb7d9",
+            "2026-02-15T02:23:12Z"
          ]
       ],
       "name" : "nixos-25.11-small"
@@ -1357,16 +1365,16 @@ const graphData = [
          [
             "78d26d24b115f5df93835994696a30b20bb38c83",
             "2026-02-12T02:13:50Z"
+         ],
+         [
+            "f97dd1ea4ade34260ce8794d2588881a0c1bdc29",
+            "2026-02-15T02:23:15Z"
          ]
       ],
       "name" : "nixpkgs-25.11-darwin"
    },
    {
       "history" : [
-         [
-            "3acb677ea67d4c6218f33de0db0955f116b7588c",
-            "2025-11-15T01:36:38Z"
-         ],
          [
             "4c8cdd5b1a630e8f72c9dd9bf582b1afb3127d2c",
             "2025-11-19T01:38:27Z"
@@ -1428,10 +1436,6 @@ const graphData = [
    },
    {
       "history" : [
-         [
-            "44ee4b702ae12a20d416a610a55e99c643ad618e",
-            "2025-11-15T01:36:38Z"
-         ],
          [
             "cec38dec00df26a901eb8b424d53bbb3bcc72eec",
             "2025-11-17T01:48:38Z"
@@ -1593,10 +1597,6 @@ const graphData = [
    },
    {
       "history" : [
-         [
-            "133519eaef82388d4ed61dd65b1ae3abc895bd1b",
-            "2025-11-15T01:36:41Z"
-         ],
          [
             "20830546e9bec56af60ca91327d92f1e7644a854",
             "2025-11-17T01:48:40Z"
