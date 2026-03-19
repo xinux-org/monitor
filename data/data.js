@@ -132,16 +132,16 @@ const graphData = [
          [
             "5b2c2d84341b2afb5647081c1386a80d7a8d8605",
             "2026-03-17T02:10:08Z"
+         ],
+         [
+            "cda48547b432e8d3b18b4180ba07473762ec8558",
+            "2026-03-19T02:14:53Z"
          ]
       ],
       "name" : "nixos-unstable"
    },
    {
       "history" : [
-         [
-            "da5cc354cf31d8514d763c39f5a685da3fe1eb3e",
-            "2025-12-19T01:53:11Z"
-         ],
          [
             "921addc42f4ed749811038255434820e0adb744d",
             "2025-12-20T01:48:06Z"
@@ -465,16 +465,16 @@ const graphData = [
          [
             "41a2715cc472025a19bc0eb9dc4ee8b7406bfa6f",
             "2026-03-18T02:14:16Z"
+         ],
+         [
+            "af90506ab0acf18cfd6449225c32c096138cba52",
+            "2026-03-19T02:14:53Z"
          ]
       ],
       "name" : "nixos-unstable-small"
    },
    {
       "history" : [
-         [
-            "def3da69945bbe338c373fddad5a1bb49cf199ce",
-            "2025-12-19T01:53:14Z"
-         ],
          [
             "7d853e518814cca2a657b72eeba67ae20ebf7059",
             "2025-12-21T02:00:04Z"
@@ -843,6 +843,10 @@ const graphData = [
          [
             "48652e9d5aea46e555b3df87354280d4f29cd3a3",
             "2026-03-18T02:14:15Z"
+         ],
+         [
+            "fea3b367d61c1a6592bc47c72f40a9f3e6a53e96",
+            "2026-03-19T02:14:52Z"
          ]
       ],
       "name" : "nixos-25.11"
@@ -1128,6 +1132,10 @@ const graphData = [
          [
             "bc76f1a9db7d11c80ed03088924b08a0ff244924",
             "2026-03-18T02:14:16Z"
+         ],
+         [
+            "826430a188181a750ffa5948daff334039c5d741",
+            "2026-03-19T02:14:53Z"
          ]
       ],
       "name" : "nixos-25.11-small"
@@ -1316,10 +1324,6 @@ const graphData = [
    {
       "history" : [
          [
-            "2b0d2b456e4e8452cf1c16d00118d145f31160f9",
-            "2025-12-19T01:53:11Z"
-         ],
-         [
             "a6c3a6141ec1b367c58ead3f7f846c772a25f4e5",
             "2025-12-24T01:52:59Z"
          ],
@@ -1340,10 +1344,6 @@ const graphData = [
    },
    {
       "history" : [
-         [
-            "1e12b3e9cccf9123db29aa7d43d32a830607c7b1",
-            "2025-12-19T01:53:11Z"
-         ],
          [
             "ccad53cd79cf4cf3bc338805d007d68565e75bda",
             "2025-12-21T02:00:02Z"
