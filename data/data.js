@@ -143,10 +143,6 @@ const graphData = [
    {
       "history" : [
          [
-            "cad22e7d996aea55ecab064e84834289143e44a0",
-            "2025-12-31T01:55:30Z"
-         ],
-         [
             "75eeaa9145450f8e71ba554a3743978007d5d5f4",
             "2026-01-02T01:56:02Z"
          ],
@@ -473,16 +469,16 @@ const graphData = [
          [
             "a24d4f88646994587e1859e70ba5936be1d1edda",
             "2026-03-30T02:43:18Z"
+         ],
+         [
+            "318977b8e175faba256cb35e0ca6810c7d87edf2",
+            "2026-03-31T02:29:21Z"
          ]
       ],
       "name" : "nixos-unstable-small"
    },
    {
       "history" : [
-         [
-            "346dd96ad74dc4457a9db9de4f4f57dab2e5731d",
-            "2025-12-31T01:55:33Z"
-         ],
          [
             "f665af0cdb70ed27e1bd8f9fdfecaf451260fc55",
             "2026-01-01T02:05:24Z"
@@ -831,6 +827,10 @@ const graphData = [
          [
             "1073dad219cb244572b74da2b20c7fe39cb3fa9e",
             "2026-03-27T02:28:46Z"
+         ],
+         [
+            "107cba9eb4a8d8c9f8e9e61266d78d340867913a",
+            "2026-03-31T02:29:20Z"
          ]
       ],
       "name" : "nixos-25.11"
@@ -1128,6 +1128,10 @@ const graphData = [
          [
             "56e32d926501109d63c5ddff3eceea63992d8566",
             "2026-03-30T02:43:17Z"
+         ],
+         [
+            "56ed9a39b84feaee9624111dc86869d19f4c22f3",
+            "2026-03-31T02:29:20Z"
          ]
       ],
       "name" : "nixos-25.11-small"
@@ -1301,16 +1305,16 @@ const graphData = [
          [
             "8f7336843dd898f588ccd03134d89693a12b162f",
             "2026-03-30T02:43:20Z"
+         ],
+         [
+            "fb0b20238291625260547f4ce9f5540aff156fd5",
+            "2026-03-31T02:29:24Z"
          ]
       ],
       "name" : "nixpkgs-25.11-darwin"
    },
    {
       "history" : [
-         [
-            "40ee5e1944bebdd128f9fbada44faefddfde29bd",
-            "2025-12-31T01:55:29Z"
-         ],
          [
             "ac62194c3917d5f474c1a844b6fd6da2db95077d",
             "2026-01-07T01:56:12Z"
