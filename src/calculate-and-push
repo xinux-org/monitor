@@ -2,7 +2,7 @@
 
 set -euxo pipefail
 
-remote=https://github.com/nixos/nixpkgs.git
+remote=https://git.oss.uzinfocom.uz/xinux/nixpkgs.git
 gitcache="$HOME/.cache/git-cache"
 (
   mkdir -p "$gitcache"

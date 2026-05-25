@@ -52,7 +52,7 @@ EOF
 
       if [ "$(printf "%s" "$datapoints" | wc -c)" -ge 1 ]; then
         echo "{name: '$name', type: 'scatter', keys: ['commit', 'x', 'y'],"
-        echo 'point: {events: { click: function() { window.open("https://github.com/NixOS/nixpkgs/commit/" + this.commit); }}},'
+        echo 'point: {events: { click: function() { window.open("https://git.oss.uzinfocom.uz/xinux/nixpkgs/commit/" + this.commit); }}},'
         echo "data: ["
         echo "$datapoints"
         echo "]},"
@@ -123,7 +123,7 @@ readonly dest="$2"
           (
             cd "$gitrepo" >&2
             printf "Channel %s advanced to " "$branch"
-            git show -s --format="https://github.com/NixOS/nixpkgs/commit/%h (from %cr, history: $URL/$name)" "$remote/$branch"
+            git show -s --format="https://git.oss.uzinfocom.uz/xinux/nixpkgs/commit/%h (from %cr, history: $URL/$name)" "$remote/$branch"
           ) | cat # publish
           mv latest.next latest
           chmod a+r latest

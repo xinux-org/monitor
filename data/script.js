@@ -23,13 +23,9 @@ function render() {
   const svgHeight = chartHeight + paddingTop + paddingBottom;
 
   // Compute the date extents
-  const dateMin = d3.min(graphData, (channel) =>
-    d3.min(channel.history, (d) => d[1])
-  );
+  const dateMin = d3.min(graphData, (channel) => d3.min(channel.history, (d) => d[1]));
 
-  const dateMax = d3.max(graphData, (channel) =>
-    d3.max(channel.history, (d) => d[1])
-  );
+  const dateMax = d3.max(graphData, (channel) => d3.max(channel.history, (d) => d[1]));
 
   const color = d3
     .scaleOrdinal()
@@ -63,30 +59,19 @@ function render() {
 
   const rows = rowEnter
     .merge(rowUpdate)
-    .attr(
-      "transform",
-      (channel) => `translate(${paddingLeft} ${vertical(channel.name)})`
-    )
+    .attr("transform", (channel) => `translate(${paddingLeft} ${vertical(channel.name)})`)
     .attr("fill", (channel) => color(channel.name))
     .attr("stroke", (channel) => color(channel.name));
 
   // Create/update dots - these are clickable SVG <a> elements
-  const pointUpdate = rows
-    .selectAll(".row__point")
-    .data((channel) => channel.history);
+  const pointUpdate = rows.selectAll(".row__point").data((channel) => channel.history);
 
-  const pointEnter = pointUpdate
-    .enter()
-    .append("a")
-    .attr("class", "row__point");
+  const pointEnter = pointUpdate.enter().append("a").attr("class", "row__point");
 
   pointEnter
     .merge(pointUpdate)
-    .attr(
-      "transform",
-      (d) => `translate(${horizontal(d[1])} ${vertical.bandwidth() * 0.25})`
-    )
-    .attr("href", (d) => `https://github.com/NixOS/nixpkgs/commit/${d[0]}`);
+    .attr("transform", (d) => `translate(${horizontal(d[1])} ${vertical.bandwidth() * 0.25})`)
+    .attr("href", (d) => `https://git.oss.uzinfocom.uz/xinux/nixpkgs/commit/${d[0]}`);
 
   pointEnter.append("circle").merge(pointUpdate.select("circle")).attr("r", 3);
 
@@ -116,4 +101,4 @@ function render() {
 }
 
 render();
-window.addEventListener('resize', render);
+window.addEventListener("resize", render);
