@@ -1,5 +1,5 @@
 <p align="center">
-    <img src=".github/assets/header.png" alt="Xinux'es {Monitor}">
+    <img src=".forgejo/assets/header.png" alt="Xinux'es {Monitor}">
 </p>
 
 <p align="center">
@@ -30,5 +30,5 @@ To whoever participated in renovating this software.
 This project is licensed under the MIT license - see the [LICENSE](LICENSE) file for details.
 
 <p align="center">
-    <img src=".github/assets/footer.png" alt="Xinux'es {Monitor}">
+    <img src=".forgejo/assets/footer.png" alt="Xinux'es {Monitor}">
 </p>

@@ -22,7 +22,7 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
 
-    runs-on: testing
+    runs-on: native
 
     steps:
       - name: Checkout
