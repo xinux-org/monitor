@@ -24,21 +24,21 @@ jobs:
 
       - name: Commit + Push changes
         run: |
-          printf "Setting git + tracking changes"
+          printf "Setting git + tracking changes\n"
           git config --global user.name "Uzinfocom Asssistant"
           git config --global user.email "support@oss.uzinfocom.uz"
           git add .
 
           if [ -n "$(git status --porcelain)" ]; then
-            printf "Commiting changes to branch"
+            printf "Commiting changes to branch\n"
             git commit -m "Update databases ${{ github.event.repository.updated_at}}"
 
-            printf "Replacing origin upstream"
+            printf "Replacing origin upstream\n"
             git remote rm origin
             git remote add origin "https://support:${{ secrets.PAT }}@git.oss.uzinfocom.uz/xinux/monitor.git"
 
-            printf "Pushing changes to upstream"
+            printf "Pushing changes to upstream\n"
             git push --set-upstream origin main
           else
-            echo "No changes detected, exiting..." && exit 0;
+            printf "No changes detected, exiting...\n" && exit 0;
           fi
