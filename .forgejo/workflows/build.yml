@@ -23,20 +23,24 @@ jobs:
 
       - name: Generate datas
         run: nix run
-        # env:
-        # SSH_KEY: ${{ secrets.KEY }}
 
-      - name: Commit changes
+      - name: Commit + Push changes
         run: |
+          printf "Setting git + tracking changes"
           git config --global user.name "Uzinfocom Asssistant"
           git config --global user.email "support@oss.uzinfocom.uz"
           git add .
-          git commit -m "Update databases ${{ github.event.repository.updated_at}}"
 
-      - name: Push changes
-        run: |
-          git config --global user.name "Uzinfocom Asssistant"
-          git config --global user.email "support@oss.uzinfocom.uz"
-          git remote rm origin
-          git remote add origin "https://support:${{ secrets.PAT }}@git.oss.uzinfocom.uz/xinux/monitor.git"
-          git push --set-upstream origin main
+          if [ -n "$(git status --porcelain)" ]; then
+            printf "Commiting changes to branch"
+            git commit -m "Update databases ${{ github.event.repository.updated_at}}"
+
+            printf "Replacing origin upstream"
+            git remote rm origin
+            git remote add origin "https://support:${{ secrets.PAT }}@git.oss.uzinfocom.uz/xinux/monitor.git"
+
+            printf "Pushing changes to upstream"
+            git push --set-upstream origin main
+          else
+            echo "No changes detected, exiting..." && exit 0;
+          fi
