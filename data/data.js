@@ -273,6 +273,10 @@ const graphData = [
          [
             "62290c9d1b6ff9e155da4da1de774cdd706cf48a",
             "2026-07-14T00:03:44Z"
+         ],
+         [
+            "a8b81d3cc8d35af7bc98694696bea61ad4f8fca7",
+            "2026-07-15T00:03:39Z"
          ]
       ],
       "name" : "nixos-unstable-small"
@@ -386,6 +390,10 @@ const graphData = [
          [
             "3b32825de172d0bc85664f495edb096b10862524",
             "2026-07-14T00:03:47Z"
+         ],
+         [
+            "6cdc7fc76e8bf7fde9fa43a849fcaaa70e230dee",
+            "2026-07-15T00:03:42Z"
          ]
       ],
       "name" : "nixpkgs-unstable"
@@ -463,6 +471,10 @@ const graphData = [
          [
             "8f0500b9660505dc3cb647775fe9a978a74b5283",
             "2026-07-13T00:03:44Z"
+         ],
+         [
+            "569d578509928497eddc3fdbf94a799027050be4",
+            "2026-07-15T00:03:39Z"
          ]
       ],
       "name" : "nixos-26.05"
@@ -620,6 +632,10 @@ const graphData = [
          [
             "74258951b6f86d69cc7c08b1860ec5e391384f59",
             "2026-07-14T00:03:43Z"
+         ],
+         [
+            "8b45b92be8100adee8c4dc8c7dfa127eda1ee52a",
+            "2026-07-15T00:03:39Z"
          ]
       ],
       "name" : "nixos-26.05-small"
@@ -724,10 +740,6 @@ const graphData = [
    {
       "history" : [
          [
-            "7e495b747b51f95ae15e74377c5ce1fe69c1765f",
-            "2026-04-14T02:37:41Z"
-         ],
-         [
             "1766437c5509f444c1b15331e82b8b6a9b967000",
             "2026-04-17T02:38:31Z"
          ],
@@ -796,10 +808,6 @@ const graphData = [
    },
    {
       "history" : [
-         [
-            "81bc6bb29280ef7a735d4a598c3bb00267f82e2a",
-            "2026-04-14T02:37:41Z"
-         ],
          [
             "aaca8b07c7ba1c5f4fe6bc9105acca37c8136d87",
             "2026-04-16T02:42:42Z"
@@ -929,10 +937,6 @@ const graphData = [
    },
    {
       "history" : [
-         [
-            "9d600cdba342cea3b59aef50e093a547a0f4012f",
-            "2026-04-14T02:37:46Z"
-         ],
          [
             "80367ce049178be1683fd17a5a88f2762510d8fc",
             "2026-04-15T02:36:04Z"
