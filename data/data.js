@@ -60,16 +60,16 @@ const graphData = [
          [
             "e7a3ca8092b61ff85b6a45bf863ea2b2d6a661b3",
             "2026-07-13T00:03:44Z"
+         ],
+         [
+            "18b9261cb3294b6d2a06d03f96872827b8fe2698",
+            "2026-07-16T00:04:57Z"
          ]
       ],
       "name" : "nixos-unstable"
    },
    {
       "history" : [
-         [
-            "4bd9165a9165d7b5e33ae57f3eecbcb28fb231c9",
-            "2026-04-15T02:36:00Z"
-         ],
          [
             "6b3fb3b76b5c78cc108553d18bc949c7fad671c8",
             "2026-04-16T02:42:44Z"
@@ -277,6 +277,10 @@ const graphData = [
          [
             "a8b81d3cc8d35af7bc98694696bea61ad4f8fca7",
             "2026-07-15T00:03:39Z"
+         ],
+         [
+            "c552e6d492ac42d6039dc92a4dd7d608aced167a",
+            "2026-07-16T00:04:57Z"
          ]
       ],
       "name" : "nixos-unstable-small"
@@ -475,6 +479,10 @@ const graphData = [
          [
             "569d578509928497eddc3fdbf94a799027050be4",
             "2026-07-15T00:03:39Z"
+         ],
+         [
+            "8eeec934ae0dbeca3d7868c059568a65c08b2fc3",
+            "2026-07-16T00:04:56Z"
          ]
       ],
       "name" : "nixos-26.05"
@@ -636,6 +644,10 @@ const graphData = [
          [
             "8b45b92be8100adee8c4dc8c7dfa127eda1ee52a",
             "2026-07-15T00:03:39Z"
+         ],
+         [
+            "2a39bdbef9100c1bbcd476d2b4d9bb21bf86a770",
+            "2026-07-16T00:04:57Z"
          ]
       ],
       "name" : "nixos-26.05-small"
@@ -733,6 +745,10 @@ const graphData = [
          [
             "76fe02659c00bef75e12fbfdd45ca665115e9302",
             "2026-07-14T00:03:46Z"
+         ],
+         [
+            "3860155d3bdb870027d96373fa8d7a423b8809de",
+            "2026-07-16T00:05:00Z"
          ]
       ],
       "name" : "nixpkgs-26.05-darwin"
@@ -937,10 +953,6 @@ const graphData = [
    },
    {
       "history" : [
-         [
-            "80367ce049178be1683fd17a5a88f2762510d8fc",
-            "2026-04-15T02:36:04Z"
-         ],
          [
             "817d1a3f570e604a3cad52c27eabc92af705db60",
             "2026-04-16T02:42:47Z"
