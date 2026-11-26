@@ -2,10 +2,6 @@ const graphData = [
    {
       "history" : [
          [
-            "56c02bc00adcf003215cc4bd996d6efaf4cff188",
-            "2026-08-25T00:12:25Z"
-         ],
-         [
             "9fbb54b33e91ee4ca368e35a78e0613c720600b3",
             "2026-08-28T00:12:07Z"
          ],
@@ -174,10 +170,6 @@ const graphData = [
    },
    {
       "history" : [
-         [
-            "941ede61f9ab033fbf284f859af3b7f92562b85f",
-            "2026-08-25T00:12:26Z"
-         ],
          [
             "c31f86faf4b060a186e94ee258278de30c69b90b",
             "2026-08-26T00:12:13Z"
@@ -461,16 +453,16 @@ const graphData = [
          [
             "8ed16af8de06a5941dc797b4e9ed27aae5cf7960",
             "2026-11-25T00:10:57Z"
+         ],
+         [
+            "6ff04cacda7e836e602bb6ecd84ca5487fbc6ffe",
+            "2026-11-26T00:10:42Z"
          ]
       ],
       "name" : "nixos-unstable-small"
    },
    {
       "history" : [
-         [
-            "c8f90650c15282fa8656a041bfbbd2403997a9a7",
-            "2026-08-25T00:12:35Z"
-         ],
          [
             "174eb786fb68e3a13e4e535a3deea479a0c07a6a",
             "2026-08-26T00:12:24Z"
@@ -669,6 +661,15 @@ const graphData = [
          ]
       ],
       "name" : "nixpkgs-unstable"
+   },
+   {
+      "history" : [
+         [
+            "f48af937b95fa60510e99dbcbc75b848ce8d548b",
+            "2026-11-26T00:10:41Z"
+         ]
+      ],
+      "name" : "nixos-26.11-small"
    },
    {
       "history" : [
@@ -873,10 +874,6 @@ const graphData = [
    },
    {
       "history" : [
-         [
-            "b74eb1afc2b050f2d58ff600f426c48d22d1d12b",
-            "2026-08-25T00:12:24Z"
-         ],
          [
             "3d800596f30107bcd4a3e1b312b316292a17d57c",
             "2026-08-26T00:12:12Z"
@@ -1152,6 +1149,10 @@ const graphData = [
          [
             "f0b41a99f28c34ffeaff61d4b419afff0516a923",
             "2026-11-24T00:15:49Z"
+         ],
+         [
+            "343335fc48c4df24ea3e57c95da75d1a46ba6772",
+            "2026-11-26T00:10:40Z"
          ]
       ],
       "name" : "nixos-26.05-small"
